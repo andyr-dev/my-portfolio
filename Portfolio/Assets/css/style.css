@@ -1,0 +1,163 @@
+:root{
+    --light_purple: #635985;
+    --med_purple: #443C68;
+    --dark_purple: #393053;
+    --darker_purple: #18122B;
+}
+
+*{
+    background-color: var(--darker_purple);
+    color: var(--light_purple);
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    background: var(--dark_purple);
+    border-radius: 15px 0 0 0;
+    background: linear-gradient(180deg, rgba(99,89,133,1) 34%, rgba(24,18,43,1) 98%);
+}
+
+h1{
+    background-color: transparent;
+    font-size: 45px;
+    color: white;
+
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    color: white;
+    background-color: var(--darker_purple);
+    font-size: 30px;
+    border-radius: 1px 0 3px 4px;
+    padding: 0 15px 0 15px;
+}
+
+nav a {
+    background-color: transparent;
+    color: white;
+  
+}
+
+nav a:hover{
+        border-bottom: 2px solid white;
+     }
+
+ a:link { 
+    text-decoration: none;
+}
+
+.aboutme section {
+    height: fit-content;
+    width: fit-content;
+}
+
+.aboutme{
+    display: flex;
+    margin-top: 75px;
+    justify-content: space-between;
+
+}
+
+.aboutme p{
+    display: flex;
+    width: 450px;
+    height: 100px;
+    color: white;
+    margin: 50px 25px 0px 0px;
+
+}
+
+.aboutme h2{
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto 50px;
+    margin-right: 10px;
+    color: white;
+    padding: 15px 15px 15px 30px;
+    margin: 25px 10px 25px 25px;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    flex: wrap;
+
+
+}
+
+.projects h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 15px 15px 15px 25px;
+    color: white;
+}
+
+.project div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#project_1{
+    width: 1225px;
+    height: 400px;
+    border: 1px solid var(--dark_purple);
+    border-radius: 15px;
+}
+
+#project_2,#project_3, #project_4{
+    width:400px;
+    height: 300px;
+    border: 1px solid var(--dark_purple);
+    border-radius: 15px;
+    margin: 15px 0 0 0;
+}
+
+.contactme div {
+background-color: var(--med_purple);
+color: white;
+
+}
+
+.contactme h2{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+}
+
+.contactme li {
+    background-color: transparent;
+    list-style-type: none;
+    color: white;
+}
+
+.contactme ul, a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    color:white;
+}
+
+
+.contactme a:hover{
+    border-bottom: 2px solid white;
+}
+
+.avatar{ 
+    height:250px;
+    width: 250px;
+    border-radius: 35px;
+}
